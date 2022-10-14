@@ -137,3 +137,26 @@ body {
   background: #fff;
   border: 5px solid rgb(222, 26, 26);
 }
+
+.middle-Gran-Espresso{
+  display: flex;
+  width: 1230px;
+  margin-left: 50px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-top: 80px;
+  background-repeat: no-repeat;
+  background-image: url("../img/our-collection.svg");
+  background-position: 50px -30px;
+}
+.middle-link{
+  text-align: center;
+  align-items: center;
+}
+.middle-planalto{
+  font-family: 'Fraunces';
+}
+.middle-piccollo{
+  width: 255px;
+  opacity: 0.6;
+}
