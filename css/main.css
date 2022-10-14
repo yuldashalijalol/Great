@@ -1,0 +1,58 @@
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: 'Barlow';
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 1280px;
+  padding-top: 30px;
+}
+
+.header-sait {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.header-home {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-about+.header-about {
+  margin-left: 30px;
+}
+
+.header-about {
+  opacity: 0.6;
+  padding: 2px 5px;
+}
+
+.header-about:hover {
+  transition-duration: 3s;
+  color: blue;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: rgb(80, 40, 240);
+}
