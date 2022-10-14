@@ -110,7 +110,7 @@ body {
   margin-bottom: 60px;
   Font-size: 16px;
   Line-height: 26px;
-  Line-height: 135%;
+  Line-height: 165%;
 }
 
 .middle-sait:hover {
@@ -149,14 +149,48 @@ body {
   background-image: url("../img/our-collection.svg");
   background-position: 50px -30px;
 }
+.middle-gran{
+  display: flex;
+}
 .middle-link{
   text-align: center;
   align-items: center;
 }
 .middle-planalto{
   font-family: 'Fraunces';
+  margin-top: 60px;
+  Font-size: 24px;
+Line-height: 32px;
+opacity: 0.8;
 }
 .middle-piccollo{
   width: 255px;
-  opacity: 0.6;
+  opacity: 0.7;
+  Font-size: 16px;
+  Line-height: 26px;
+  Line-height: 165%;
 }
+.middle-link-why{
+  height: 577px;
+  border-radius: 10px;
+  background: #293039;
+  text-align: center;
+  padding-top: 80px;
+}
+.middle-Why{
+  font-family: 'Fraunces';
+  color: #fff;
+  Font-size: 40px;
+Line-height: 48px;
+}
+.middle-large{
+  color: #fff;
+  width: 540px;
+  opacity: 0.8;
+margin-top: 30px;
+margin-left: 370px;
+Font-size: 16px;
+  Line-height: 26px;
+  Line-height: 165%;
+}
+
