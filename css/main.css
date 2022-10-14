@@ -84,3 +84,56 @@ body {
   border-radius: 4px;
   background: rgb(80, 40, 240);
 }
+.middle-sait {
+  width: 1280px;
+  height: 600px;
+  margin-top: -30px;
+  padding-top: 86px;
+  padding-left: 86px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Great.svg");
+  background-position: 0 0;
+}
+
+.middle-great {
+  font-family: 'Fraunces';
+  color: #fff;
+  width: 493px;
+  Font-size: 72px;
+  Line-height: 72px;
+}
+
+
+.middle-start {
+  color: #fff;
+  width: 435px;
+  margin-bottom: 60px;
+  Font-size: 16px;
+  Line-height: 26px;
+  Line-height: 135%;
+}
+
+.middle-sait:hover {
+  width: 670px;
+  transition-duration: 8s;
+}
+
+.middle-create {
+  font-family: 'Fraunces';
+  color: #fff;
+  padding: 15px 31px 16px;
+  border-radius: 5px;
+  background: #0E8784;
+  border: 5px solid transparent;
+}
+
+.middle-create:hover {
+  color: aqua;
+  background: rgb(154, 243, 243);
+}
+
+.middle-create:active {
+  color: blue;
+  background: #fff;
+  border: 5px solid rgb(222, 26, 26);
+}
