@@ -1,4 +1,3 @@
-
 /* barlow-regular - latin */
 @font-face {
   font-family: 'Barlow';
@@ -84,6 +83,7 @@ body {
   border-radius: 4px;
   background: rgb(80, 40, 240);
 }
+
 .middle-sait {
   width: 1280px;
   height: 600px;
@@ -138,7 +138,7 @@ body {
   border: 5px solid rgb(222, 26, 26);
 }
 
-.middle-Gran-Espresso{
+.middle-Gran-Espresso {
   display: flex;
   width: 1230px;
   margin-left: 50px;
@@ -150,90 +150,103 @@ body {
   background-position: 50px -30px;
 }
 
-.middle-gran{
+.middle-gran {
   display: flex;
 }
-.middle-link{
+
+.middle-link {
   text-align: center;
   align-items: center;
 }
-.middle-planalto{
+
+.middle-planalto {
   font-family: 'Fraunces';
   margin-top: 60px;
   Font-size: 24px;
-Line-height: 32px;
-opacity: 0.8;
+  Line-height: 32px;
+  opacity: 0.8;
 }
-.middle-piccollo{
+
+.middle-piccollo {
   width: 255px;
   opacity: 0.7;
   Font-size: 16px;
   Line-height: 26px;
   Line-height: 165%;
 }
-.middle-link-why{
+
+.middle-link-why {
   height: 577px;
   border-radius: 10px;
   background: #293039;
   text-align: center;
   padding-top: 80px;
 }
-.middle-Why{
+
+.middle-Why {
   font-family: 'Fraunces';
   color: #fff;
   Font-size: 40px;
-Line-height: 48px;
+  Line-height: 48px;
 }
-.middle-large{
+
+.middle-large {
   color: #fff;
   width: 540px;
   opacity: 0.8;
-margin-top: 30px;
-margin-left: 370px;
-Font-size: 16px;
+  margin-top: 30px;
+  margin-left: 370px;
+  Font-size: 16px;
   Line-height: 26px;
   Line-height: 165%;
 }
-.middle-nav-best{
+
+.middle-nav-best {
   display: flex;
   margin-top: -230px;
 }
 
-.middle-ul + .middle-ul{
+.middle-ul+.middle-ul {
   margin-left: 30px;
 }
-.middle-ul2{
+
+.middle-ul2 {
   margin-left: 85px;
 }
+
 .middle-ul.middle-ul + .middle-ul{
   padding-top: 86px;
 }
-.middle-ul{
+.middle-ul {
   text-align: center;
   width: 350px;
-  padding: 60px 40px 50px;
+  padding: 60px 50px 50px;
   border-radius: 10px;
   background: #0E8684;
   border: 5px solid transparent;
 }
-.middle-ul:hover{
+
+.middle-ul:hover {
   transition-duration: 1s;
   border: 5px solid rgb(228, 48, 48);
   background: rgb(27, 27, 245);
 }
-.middle-best{
+
+.middle-best {
   font-family: 'Fraunces';
   color: #fff;
+  width: 255px;
   opacity: 0.8;
   Font-size: 24px;
   Line-height: 32px;
   margin-top: 56px;
   margin-bottom: 24px;
 }
-.middle-discover{
-color: #fff;
-opacity: 0.8;
-Font-size: 16px;
+
+.middle-discover {
+  color: #fff;
+  opacity: 0.8;
+  Font-size: 16px;
   Line-height: 26px;
   Line-height: 165%;
 }
