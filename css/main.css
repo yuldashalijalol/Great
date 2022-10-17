@@ -136,6 +136,7 @@ body {
 
 .middle-create {
   font-family: 'Fraunces';
+  width: 217px;
   color: #fff;
   padding: 15px 31px 16px;
   border-radius: 5px;
@@ -276,4 +277,101 @@ body {
   Font-size: 16px;
   Line-height: 26px;
   Line-height: 165%;
+}
+
+.hero-nav{
+  display: flex;
+  margin-bottom: 60px;
+}
+.hero-sait{
+  margin-top: 180px;
+  margin-left: 85px;
+  Font-size: 24px;
+  Line-height: 32px;
+}
+.hero-how-h3{
+  font-family: 'Fraunces';
+  opacity: 0.6;
+}
+
+.hero-works{
+  max-width: 780px;
+  height: 2px;
+  background-color: #fdd6ba;
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 82px;
+  justify-content: space-between;
+}
+.hero-ring{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  border: 3px solid #0e8784;
+  display: inline-block;
+}
+.hero-ring:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  border: 3px solid #870e0e;
+  display: inline-block;
+}
+.hero-pick{
+  width: 285px;
+  margin-left: -40px;
+}
+.hero-pick2{
+  width: 285px;
+  margin-left: 95px;
+}
+.hero-list-pick{
+  font-family: 'Fraunces';
+  opacity: 0.8;
+  Font-size: 32px;
+Line-height: 36px;
+}
+
+.hero-text-select{
+  opacity: 0.6;
+  Font-size: 16px;
+Line-height: 26px;
+Line-height: 135%;
+}
+.hero-create{
+  width: 180px;
+}
+.footer-link{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 35px 80px;
+  background: #293039;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+}
+.footer-list + .footer-list{
+ margin-left: 30px;
+}
+.footer-home{
+  margin-left: 70px;
+  display: flex;
+  color: #fff;
+  opacity: 0.6;
+}
+.footer-img{
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/fesebooc.svg) ;
+  background-position: 0 0;
+}
+.footer-plan{
+ margin-left: auto;
+}
+.footer-tviter {
+  margin-left: 25px;
 }
