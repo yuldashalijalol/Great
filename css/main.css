@@ -40,7 +40,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -90,8 +90,8 @@ body {
 
 .header-about:hover {
   -webkit-transition-duration: 3s;
-       -o-transition-duration: 3s;
-          transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
   color: blue;
   padding: 2px 5px;
   border-radius: 4px;
@@ -130,8 +130,8 @@ body {
 .middle-sait:hover {
   width: 670px;
   -webkit-transition-duration: 8s;
-       -o-transition-duration: 8s;
-          transition-duration: 8s;
+  -o-transition-duration: 8s;
+  transition-duration: 8s;
 }
 
 .middle-create {
@@ -178,8 +178,8 @@ body {
 .middle-link {
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .middle-planalto {
@@ -254,8 +254,8 @@ body {
 
 .middle-ul:hover {
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
-          transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   border: 5px solid rgb(228, 48, 48);
   background: rgb(27, 27, 245);
 }
@@ -279,22 +279,24 @@ body {
   Line-height: 165%;
 }
 
-.hero-nav{
+.hero-nav {
   display: flex;
   margin-bottom: 60px;
 }
-.hero-sait{
+
+.hero-sait {
   margin-top: 180px;
   margin-left: 85px;
   Font-size: 24px;
   Line-height: 32px;
 }
-.hero-how-h3{
+
+.hero-how-h3 {
   font-family: 'Fraunces';
   opacity: 0.6;
 }
 
-.hero-works{
+.hero-works {
   max-width: 780px;
   height: 2px;
   background-color: #fdd6ba;
@@ -305,7 +307,8 @@ body {
   margin-bottom: 82px;
   justify-content: space-between;
 }
-.hero-ring{
+
+.hero-ring {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -313,7 +316,8 @@ body {
   border: 3px solid #0e8784;
   display: inline-block;
 }
-.hero-ring:hover{
+
+.hero-ring:hover {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -321,31 +325,36 @@ body {
   border: 3px solid #870e0e;
   display: inline-block;
 }
-.hero-pick{
+
+.hero-pick {
   width: 285px;
   margin-left: -40px;
 }
-.hero-pick2{
+
+.hero-pick2 {
   width: 285px;
   margin-left: 95px;
 }
-.hero-list-pick{
+
+.hero-list-pick {
   font-family: 'Fraunces';
   opacity: 0.8;
   Font-size: 32px;
-Line-height: 36px;
+  Line-height: 36px;
 }
 
-.hero-text-select{
+.hero-text-select {
   opacity: 0.6;
   Font-size: 16px;
-Line-height: 26px;
-Line-height: 135%;
+  Line-height: 26px;
+  Line-height: 135%;
 }
-.hero-create{
+
+.hero-create {
   width: 180px;
 }
-.footer-link{
+
+.footer-link {
   margin-top: 80px;
   margin-bottom: 80px;
   padding: 35px 80px;
@@ -354,24 +363,29 @@ Line-height: 135%;
   border-radius: 5px;
   align-items: center;
 }
-.footer-list + .footer-list{
- margin-left: 30px;
+
+.footer-list+.footer-list {
+  margin-left: 30px;
 }
-.footer-home{
+
+.footer-home {
   margin-left: 70px;
   display: flex;
   color: #fff;
   opacity: 0.6;
 }
-.footer-img{
+
+.footer-img {
   padding: 30px 0;
   background-repeat: no-repeat;
-  background-image: url(../img/fesebooc.svg) ;
+  background-image: url(../img/fesebooc.svg);
   background-position: 0 0;
 }
-.footer-plan{
- margin-left: auto;
+
+.footer-plan {
+  margin-left: auto;
 }
+
 .footer-tviter {
   margin-left: 25px;
 }
